@@ -7,4 +7,6 @@ add_executable(Colecci_n_de_Ejercicios_STL
         main.cpp
         triangulo.cpp
         circulo.cpp
-        cuadrado.cpp)
+        cuadrado.cpp
+        criculoClase.cpp
+)

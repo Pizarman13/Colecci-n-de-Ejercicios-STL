@@ -4,6 +4,7 @@
 #include <iostream>
 #include <cmath>
 #include "triangulo.cpp"
+#include "criculoClase.cpp"
 #include "circulo.cpp"
 #include "cuadrado.cpp"
 
@@ -35,5 +36,13 @@ int main() {
     std::cout << "Area del triangulo: " << Geometria::calcularAreaTriangulo(5, 3) << std::endl;
     std::cout << "Area del circulo: " << Geometria::calcularAreaCirculo(3) << std::endl;
     std::cout << "Area del cuadrado: " << Geometria::calcularAreaCuadrado(3) << std::endl;
+
+    Geometria::circuloClase c(5);
+    std::cout << "Area: " << c.calcularArea() << std::endl;
+    std::cout << "Perimetro: " << c.calcularPerimetro() << std::endl;
+    std::cout << "Diametro: " << c.calcularDiametro() << std::endl;
+
+    
     return 0;
+
 }

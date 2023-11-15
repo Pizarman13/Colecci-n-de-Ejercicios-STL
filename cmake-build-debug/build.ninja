@@ -73,6 +73,12 @@ build CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/cuadrado.cpp.obj: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles\Colecci_n_de_Ejercicios_STL.dir
   OBJECT_FILE_DIR = CMakeFiles\Colecci_n_de_Ejercicios_STL.dir
 
+build CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/criculoClase.cpp.obj: CXX_COMPILER__Colecci_n_de_Ejercicios_STL_unscanned_Debug C$:/Users/Pizarman/Documents/GitHub/Colecci-n-de-Ejercicios-STL/criculoClase.cpp || cmake_object_order_depends_target_Colecci_n_de_Ejercicios_STL
+  DEP_FILE = CMakeFiles\Colecci_n_de_Ejercicios_STL.dir\criculoClase.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Colecci_n_de_Ejercicios_STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\Colecci_n_de_Ejercicios_STL.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Colecci_n_de_Ejercicios_STL
@@ -81,7 +87,7 @@ build CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/cuadrado.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable Colecci_n_de_Ejercicios_STL.exe
 
-build Colecci_n_de_Ejercicios_STL.exe: CXX_EXECUTABLE_LINKER__Colecci_n_de_Ejercicios_STL_Debug CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/main.cpp.obj CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/triangulo.cpp.obj CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/circulo.cpp.obj CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/cuadrado.cpp.obj
+build Colecci_n_de_Ejercicios_STL.exe: CXX_EXECUTABLE_LINKER__Colecci_n_de_Ejercicios_STL_Debug CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/main.cpp.obj CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/triangulo.cpp.obj CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/circulo.cpp.obj CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/cuadrado.cpp.obj CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/criculoClase.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Colecci_n_de_Ejercicios_STL.dir
