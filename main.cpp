@@ -3,6 +3,9 @@
 //
 #include <iostream>
 #include <cmath>
+#include <vector>
+#include <map>
+#include <set>
 #include "triangulo.cpp"
 #include "criculoClase.cpp"
 #include "circulo.cpp"
@@ -44,6 +47,21 @@ int main() {
     std::cout << "Diametro: " << c.calcularDiametro() << std::endl;
 
     std::cout << "Energia: " << Ciencia::Fisica::calcularEnergia(10) << std::endl;
+
+    // Vector
+    std::vector<int> numeros {1, 2, 3, 4, 5};
+    numeros.push_back(6);
+
+    // Map
+    std::map<std::string, int> edad;
+    edad["Juan"] = 25;
+    edad.erase("Juan");
+
+    // Set
+    std::set<int> conjunto {1, 2, 3, 4, 5};
+    conjunto.insert(6);
+    conjunto.erase(1);
+
 
     return 0;
 

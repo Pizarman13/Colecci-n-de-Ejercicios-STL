@@ -1,13 +1,8 @@
 # ninja log v5
-0	52	7217880670747683	CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/triangulo.cpp.obj	f6302f61f05c4e88
-3	284	7217952236324478	CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/main.cpp.obj	e23e808ad3a633d2
-13	64	7217880670887817	CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/cuadrado.cpp.obj	145b610f36cde51f
-5	44	7217943459800522	CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/criculoClase.cpp.obj	71fd4007d7f37423
-10	63	7217880670857780	CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/circulo.cpp.obj	8b25c0b70257cb58
-2	125	7217952776800437	build.ninja	8905568afc2c2940
-5	44	7217953629127982	CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/ciencia.cpp.obj	68621e470bad8912
-2	264	7217953631319981	CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/main.cpp.obj	e23e808ad3a633d2
 2	50	7217954591139460	CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/triangulo.cpp.obj	f6302f61f05c4e88
-8	57	7217954591199522	CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/circulo.cpp.obj	8b25c0b70257cb58
-11	61	7217954591249562	CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/cuadrado.cpp.obj	145b610f36cde51f
 5	276	7217954593401523	CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/main.cpp.obj	e23e808ad3a633d2
+11	61	7217954591249562	CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/cuadrado.cpp.obj	145b610f36cde51f
+5	44	7217943459800522	CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/criculoClase.cpp.obj	71fd4007d7f37423
+5	44	7217953629127982	CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/ciencia.cpp.obj	68621e470bad8912
+8	57	7217954591199522	CMakeFiles/Colecci_n_de_Ejercicios_STL.dir/circulo.cpp.obj	8b25c0b70257cb58
+2	125	7217956693740826	build.ninja	8905568afc2c2940
