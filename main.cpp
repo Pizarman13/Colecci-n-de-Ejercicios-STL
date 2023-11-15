@@ -6,6 +6,7 @@
 #include "triangulo.cpp"
 #include "criculoClase.cpp"
 #include "circulo.cpp"
+#include "ciencia.cpp"
 #include "cuadrado.cpp"
 
 namespace Matematicas {
@@ -42,7 +43,8 @@ int main() {
     std::cout << "Perimetro: " << c.calcularPerimetro() << std::endl;
     std::cout << "Diametro: " << c.calcularDiametro() << std::endl;
 
-    
+    std::cout << "Energia: " << Ciencia::Fisica::calcularEnergia(10) << std::endl;
+
     return 0;
 
 }

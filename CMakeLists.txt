@@ -9,4 +9,5 @@ add_executable(Colecci_n_de_Ejercicios_STL
         circulo.cpp
         cuadrado.cpp
         criculoClase.cpp
+        ciencia.cpp
 )
