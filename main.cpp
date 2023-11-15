@@ -3,6 +3,9 @@
 //
 #include <iostream>
 #include <cmath>
+#include "triangulo.cpp"
+#include "circulo.cpp"
+#include "cuadrado.cpp"
 
 namespace Matematicas {
     int suma(int a, int b) {
@@ -25,10 +28,12 @@ namespace Matematicas {
 int main() {
     std::cout << "Suma: " << Matematicas::suma(5, 3) << std::endl;
     std::cout << "Resta: " << Matematicas::resta(5, 3) << std::endl;
-    std::cout << "Multilicacion: " << Matematicas::suma(5, 3) << std::endl;
-    std::cout << "Division: " << Matematicas::resta(5, 3) << std::endl;
-    std::cout << "Exponencial: " << Matematicas::suma(5, 3) << std::endl;
+    std::cout << "Multilicacion: " << Matematicas::multiplicacion(5, 3) << std::endl;
+    std::cout << "Division: " << Matematicas::division(5, 3) << std::endl;
+    std::cout << "Exponencial: " << Matematicas::exponente(5, 3) << std::endl;
 
-
+    std::cout << "Area del triangulo: " << Geometria::calcularAreaTriangulo(5, 3) << std::endl;
+    std::cout << "Area del circulo: " << Geometria::calcularAreaCirculo(3) << std::endl;
+    std::cout << "Area del cuadrado: " << Geometria::calcularAreaCuadrado(3) << std::endl;
     return 0;
 }
